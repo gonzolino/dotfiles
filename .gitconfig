@@ -1,0 +1,11 @@
+[user]
+	name = Daniel Gonzalez
+	email = daniel@gonzalez-nothnagel.de
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
+[push]
+	default = matching
