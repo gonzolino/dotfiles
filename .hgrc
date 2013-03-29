@@ -1,0 +1,12 @@
+[ui]
+username = Daniel Gonzalez <daniel@gonzalez-nothnagel.de>
+editor = vim
+merge = vimdiff
+
+[extensions]
+hgext.convert =
+hgext.graphlog = 
+
+[merge-tools]
+vimdiff.executable = vim
+vimdiff.args = -d $base $local $output $other +close + close
