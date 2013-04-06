@@ -15,7 +15,14 @@ set viminfo='50,n$HOME/.vim/tmp/info/
 set backup
 set undofile
 
-" Configure vim
+" Configure vundle
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Bundles
+Bundle 'gmarik/vundle'
+
 filetype plugin indent on
 
 " Editor settings
