@@ -21,9 +21,42 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Bundles
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'gmarik/vundle'
+Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'majutsushi/tagbar'
+Bundle 'myusuf3/numbers.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'Shougo/neocomplcache'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
 
 filetype plugin indent on
+
+"Mapping for CtrlP
+let g:ctrlp_map='<C-p>'
+let g:ctrlp_cmd='CtrlP'
+
+" Set path for powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+
+" Mapping for tagbar
+map <C-t> :TagbarToggle<CR>
+
+" Mapping for numbers
+map <C-m> :NumbersToggle<CR>
+
+" Mapping for NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" Syntastic symbols
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_warning_symbol = '!'
+
+" Activate neocomplcache
+let g:neocomplcache_enable_at_startup=1
 
 " Editor settings
 set tabstop=8
@@ -34,8 +67,10 @@ set autoindent
 set fileencodings=utf-8
 set visualbell
 set title
-syntax on
-set relativenumber
+set laststatus=2
+syntax enable
+set background=dark
+colorscheme solarized
 set modeline
 set showmode
 set showcmd
