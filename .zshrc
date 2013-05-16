@@ -4,6 +4,9 @@ ZSH=$HOME/.oh-my-zsh
 # Set vim as default editor
 export EDITOR=vim
 
+# Set default locale
+export LANG=en_US.UTF-8
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
