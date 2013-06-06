@@ -32,6 +32,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'Shougo/neocomplcache'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
+Bundle 'jcf/vim-latex'
 
 filetype plugin indent on
 
@@ -57,6 +58,14 @@ let g:syntastic_warning_symbol = '!'
 
 " Activate neocomplcache
 let g:neocomplcache_enable_at_startup=1
+
+" VIM Latex settings
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+let g:Tex_TreatMacViewerAsUNIX = 1
+let g:Tex_ExecuteUNIXViewerInForeground = 1
+let g:Tex_ViewRule_ps = 'open-a Preview'
+let g:Tex_ViewRule_pdf = 'open -a Preview'
 
 " Editor settings
 set tabstop=8
