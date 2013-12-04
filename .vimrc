@@ -33,6 +33,8 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'jcf/vim-latex'
+Bundle 'godlygeek/tabular'
+Bundle 'rodjek/vim-puppet'
 
 filetype plugin indent on
 
