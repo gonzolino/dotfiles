@@ -10,6 +10,9 @@ export LANG=en_US.UTF-8
 # Change PATH for brew
 export PATH=/usr/local/sbin:/usr/local/bin:$PATH
 
+# Set default provider for vagrant
+export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
