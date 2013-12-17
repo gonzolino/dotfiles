@@ -17,3 +17,9 @@ git submodule update
 ./install.sh
 vim +BundleInstall +qall
 ```
+
+## Update
+```shell
+git pull origin master
+git submodule foreach git pull origin master
+```
