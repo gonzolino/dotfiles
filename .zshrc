@@ -7,8 +7,8 @@ export EDITOR=vim
 # Set default locale
 export LANG=en_US.UTF-8
 
-# Change PATH for brew
-export PATH=/usr/local/sbin:/usr/local/bin:$PATH
+# Set PATH
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Set default provider for vagrant
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
