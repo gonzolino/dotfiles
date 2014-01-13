@@ -13,9 +13,6 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # Set default provider for vagrant
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 
-# Load boxen environment
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
