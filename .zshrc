@@ -10,8 +10,9 @@ export LANG=en_US.UTF-8
 # Set PATH
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-# Set default provider for vagrant
+# Configure vagrant
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+export VAGRANT_HOME=/Volumes/nifty/vagrant.d
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
