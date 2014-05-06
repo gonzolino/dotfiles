@@ -35,6 +35,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'jcf/vim-latex'
 Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
+Bundle 'markcornick/vim-vagrant'
 
 filetype plugin indent on
 
