@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 cd "$(dirname "${BASH_SOURCE}")"
 
-git submodule init
+git submodule foreach git pull origin master
 git submodule update
 
 rsync --exclude ".git" \
@@ -11,4 +11,4 @@ rsync --exclude ".git" \
       --exclude "README.md" \
       -av . ~
 
-vim +BundleInstall +qall
+vim +BundleUpdate +qall

@@ -12,14 +12,11 @@ Be careful, installing these will overwrite your dotfiles
 ```shell
 git clone https://github.com/gonzolino/dotfiles
 cd dotfiles
-git submodule init
-git submodule update
 ./install.sh
-vim +BundleInstall +qall
 ```
 
 ## Update
 ```shell
 git pull origin master
-git submodule foreach git pull origin master
+./update.sh
 ```
