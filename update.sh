@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 cd "$(dirname "${BASH_SOURCE}")"
 
-git submodule foreach git pull origin master
+git pull origin master
 git submodule update
 
 rsync --exclude ".git" \
