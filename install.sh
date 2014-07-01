@@ -11,4 +11,4 @@ rsync --exclude ".git" \
       --exclude "README.md" \
       -av . ~
 
-vim +BundleInstall +qall
+vim +PluginInstall +qall
