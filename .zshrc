@@ -10,9 +10,6 @@ export LANG=en_US.UTF-8
 # Set PATH
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-# Configure vagrant
-export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
