@@ -41,7 +41,7 @@ ZSH_THEME="pygmalion"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew celery django docker fabric git git-flow gitignore osx pip postgres python sbt scala vagrant)
+plugins=(brew celery django docker fabric git git-flow gitignore gradle osx pip postgres python sbt scala sudo svn vagrant web-search)
 
 source $ZSH/oh-my-zsh.sh
 
