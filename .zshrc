@@ -6,6 +6,7 @@ export EDITOR=vim
 
 # Set default locale
 export LANG=en_US.UTF-8
+export LC_CTYPE=$LANG
 
 # Set PATH
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
