@@ -47,3 +47,5 @@ plugins=(brew celery django docker fabric git git-flow gitignore gradle osx pip 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+source ~/.iterm2_shell_integration.zsh
