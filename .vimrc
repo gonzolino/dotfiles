@@ -37,6 +37,7 @@ Plugin 'jcf/vim-latex'
 Plugin 'godlygeek/tabular'
 Plugin 'rodjek/vim-puppet'
 Plugin 'markcornick/vim-vagrant'
+Plugin 'ekalinin/Dockerfile.vim'
 
 call vundle#end()
 filetype plugin indent on
