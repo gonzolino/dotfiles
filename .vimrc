@@ -88,7 +88,7 @@ set title
 set laststatus=2
 syntax enable
 set background=dark
-colorscheme solarized
+silent! colorscheme solarized
 set modeline
 set showmode
 set showcmd
