@@ -11,7 +11,6 @@ set backupdir=$HOME/.vim/tmp/backup/
 set directory=$HOME/.vim/tmp/swap/
 set viewdir=$HOME/.vim/tmp/view/
 set undodir=$HOME/.vim/tmp/undo/
-set viminfo='50,n$HOME/.vim/tmp/info/
 set backup
 set undofile
 
