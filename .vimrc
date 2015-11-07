@@ -37,6 +37,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'rodjek/vim-puppet'
 Plugin 'markcornick/vim-vagrant'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'rizzatti/dash.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -56,6 +57,9 @@ map <C-m> :NumbersToggle<CR>
 
 " Mapping for NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+" Mapping for dash.vim
+nmap <silent> <leader>d <Plug>DashSearch
 
 " Syntastic symbols
 let g:syntastic_error_symbol = '✗'
