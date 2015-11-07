@@ -42,7 +42,12 @@ Plugin 'rizzatti/dash.vim'
 call vundle#end()
 filetype plugin indent on
 
-"Mapping for CtrlP
+
+" Configure leader mapping
+let mapleader=','
+let maplocalleader='\\'
+
+" Mapping for CtrlP
 let g:ctrlp_map='<C-p>'
 let g:ctrlp_cmd='CtrlP'
 
@@ -116,7 +121,3 @@ if has('gui_running')
     set guioptions-=T
     set guioptions+=LlRrb guioptions-=LlRrb
 endif
-
-" Maps
-let mapleader=','
-let maplocalleader='\\'
