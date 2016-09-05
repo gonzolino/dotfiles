@@ -80,6 +80,9 @@ let g:Tex_TreatMacViewerAsUNIX = 1
 let g:Tex_ExecuteUNIXViewerInForeground = 1
 let g:Tex_ViewRule_ps = 'open-a Preview'
 let g:Tex_ViewRule_pdf = 'open -a Preview'
+let Tex_FoldedSections = ""
+let Tex_FoldedEnvironments = ""
+let Tex_FoldedMisc = ""
 
 " View markdown with Marked.app
 :nnoremap <leader>m :silent !open -a Marked.app '%p'<cr>
