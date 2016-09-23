@@ -88,6 +88,7 @@ let Tex_FoldedMisc = ""
 :nnoremap <leader>m :silent !open -a Marked.app '%p'<cr>
 
 " Editor settings
+set backspace=indent,eol,start
 set tabstop=8
 set shiftwidth=4
 set softtabstop=4
