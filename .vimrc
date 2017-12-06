@@ -20,7 +20,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Plugins
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'flazz/vim-colorschemes'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-powerline'
@@ -100,7 +100,7 @@ set title
 set laststatus=2
 syntax enable
 set background=dark
-silent! colorscheme solarized
+silent! colorscheme molokai
 set modeline
 set showmode
 set showcmd
