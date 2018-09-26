@@ -30,3 +30,11 @@ git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
 git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginUpdate +qall
 ```
+
+### Setup Mac Homebrew and Apps
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew bundle --global
+```
