@@ -2,7 +2,6 @@
 My dotfiles for
 
 * git
-* mercurial
 * ssh
 * vim
 * zsh
