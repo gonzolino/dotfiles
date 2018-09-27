@@ -31,6 +31,12 @@ git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginUpdate +qall
 ```
 
+### Global .gitignore
+
+```
+git config --global core.excludesfile ~/.gitignore_global
+```
+
 ### Setup Mac Homebrew and Apps
 
 ```
