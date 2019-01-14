@@ -84,9 +84,6 @@ let Tex_FoldedSections = ""
 let Tex_FoldedEnvironments = ""
 let Tex_FoldedMisc = ""
 
-" View markdown with Marked.app
-:nnoremap <leader>m :silent !open -a Marked.app '%p'<cr>
-
 " Editor settings
 set backspace=indent,eol,start
 set tabstop=8
