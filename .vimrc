@@ -99,8 +99,7 @@ set visualbell
 set title
 set laststatus=2
 syntax enable
-set background=dark
-silent! colorscheme molokai
+colorscheme PaperColor
 set modeline
 set showmode
 set showcmd
