@@ -1,0 +1,22 @@
+{
+    "editor.rulers": [80,120],
+    "go.toolsGopath": "~/.vscode/gopath",
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "git.autofetch": true,
+    "todo-tree.defaultHighlight": {
+        "foreground": "red",
+        "background": "yellow",
+        "type": "line"
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path": "/Users/d065893/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.draft-path": "/Users/d065893/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "workbench.colorTheme": "Default Light+"
+}
