@@ -42,7 +42,6 @@ Plugin 'rizzatti/dash.vim'
 call vundle#end()
 filetype plugin indent on
 
-
 " Configure leader mapping
 let mapleader=','
 let maplocalleader='\\'
@@ -115,6 +114,18 @@ set formatoptions=tcq1
 set colorcolumn=80
 set splitright splitbelow
 set viewoptions=folds,options,cursor,unix,slash
+
+" macOS Dark mode
+if has("unix")
+  let s:uname = system("uname")
+  if s:uname == "Darwin\n"
+    if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'
+      set background=dark
+    else
+      set background=light
+    endif
+  endif
+endif
 
 " GUI settings
 if has('gui_running')
