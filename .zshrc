@@ -9,7 +9,8 @@ export LANG=en_US.UTF-8
 export LC_CTYPE=$LANG
 
 # Set PATH
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:i/usr/local/opt/openvpn/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
