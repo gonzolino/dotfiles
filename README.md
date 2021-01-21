@@ -45,21 +45,6 @@ git config --global core.excludesfile ~/.gitignore_global
 brew bundle --global
 ```
 
-### Visual Studio Code
-
-#### Init new installation
-
-```
-cp vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
-for e in `cat vscode-extensions` ; do code --install-extension $e ; done
-```
-
-#### Renew list of vscode extensions
-
-```
-code --list-extensions > vscode-extensions
-```
-
 ### Mac Setup
 
 #### Enable FileVault
