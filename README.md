@@ -1,4 +1,5 @@
 # dotfiles
+
 My dotfiles for
 
 * git
@@ -8,6 +9,7 @@ My dotfiles for
 * iTerm2 shell integration
 
 ## Installation
+
 Be careful, installing these will overwrite your dotfiles
 
 ```shell
@@ -16,7 +18,9 @@ rsync -r ~/repos/dotfiles/ ~ --exclude=.git --exclude=.vim --exclude=README.md
 ```
 
 ## Additional configuration
+
 ### Installation of oh-my-zsh
+
 The configuration for oh-my-zsh is already included in .zshrc.
 We only need to clone the oh-my-zsh repository:
 
@@ -33,13 +37,13 @@ vim +PluginUpdate +qall
 
 ### Global .gitignore
 
-```
+```shell
 git config --global core.excludesfile ~/.gitignore_global
 ```
 
 ### Setup Mac Homebrew and Apps
 
-```
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew bundle --global
@@ -49,7 +53,7 @@ brew bundle --global
 
 #### Enable FileVault
 
-```
+```shell
 sudo fdesetup enable
 ```
 
