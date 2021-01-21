@@ -14,7 +14,7 @@ Be careful, installing these will overwrite your dotfiles
 
 ```shell
 git clone https://github.com/gonzolino/dotfiles ~/repos/dotfiles
-rsync -r ~/repos/dotfiles/ ~ --exclude=.git --exclude=.vim --exclude=README.md
+rsync -r ~/repos/dotfiles/ ~ --exclude=.git --exclude=README.md
 ```
 
 ## Additional configuration
