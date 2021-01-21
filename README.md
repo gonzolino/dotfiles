@@ -59,3 +59,13 @@ for e in `cat vscode-extensions` ; do code --install-extension $e ; done
 ```
 code --list-extensions > vscode-extensions
 ```
+
+### Mac Setup
+
+#### Enable FileVault
+
+```
+sudo fdesetup enable
+```
+
+Remember to note down the recovery key!
