@@ -22,6 +22,7 @@ brew "kubebuilder"
 brew "kubernetes-cli"
 brew "mas"
 brew "mercurial" # required for some go dependencies
+brew "minikube"
 brew "netcat"
 brew "nmap"
 brew "oath-toolkit"
