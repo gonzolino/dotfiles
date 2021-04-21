@@ -1,6 +1,7 @@
 [user]
 	name = Daniel Gonzalez
 	email = daniel@gonzalez-nothnagel.de
+	signingkey = 3B55F8617C25246A
 [diff]
 	tool = vimdiff
 [difftool]
@@ -9,3 +10,9 @@
 	d = difftool
 [push]
 	default = matching
+[core]
+	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
+[pager]
+	branch = false
