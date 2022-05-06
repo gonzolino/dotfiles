@@ -40,6 +40,7 @@ brew "watch"
 brew "wget"
 brew "zsh"
 
+cask "1password"
 cask "1password-cli"
 cask "bettertouchtool"
 cask "calibre"
@@ -56,7 +57,6 @@ cask "viscosity"
 cask "visual-studio-code"
 cask "zoom"
 
-mas "1Password 7", id: 1333542190
 mas "Keynote", id: 409183694
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
