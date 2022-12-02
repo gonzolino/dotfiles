@@ -25,7 +25,7 @@ The configuration for oh-my-zsh is already included in .zshrc.
 We only need to clone the oh-my-zsh repository:
 
 ```shell
-git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### Installation of vundle
@@ -44,7 +44,7 @@ git config --global core.excludesfile ~/.gitignore_global
 ### Setup Mac Homebrew and Apps
 
 ```shell
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew bundle --global
 ```
