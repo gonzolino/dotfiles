@@ -1,8 +1,6 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-drivers"
-tap "homebrew/core"
 
 brew "coreutils"
 brew "curl"
