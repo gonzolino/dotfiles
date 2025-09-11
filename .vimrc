@@ -20,7 +20,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Plugins
-Plugin 'flazz/vim-colorschemes'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-powerline'
@@ -95,7 +94,6 @@ set visualbell
 set title
 set laststatus=2
 syntax enable
-colorscheme PaperColor
 set modeline
 set showmode
 set showcmd
@@ -116,16 +114,16 @@ set splitright splitbelow
 set viewoptions=folds,options,cursor,unix,slash
 
 " macOS Dark mode
-if has("unix")
-  let s:uname = system("uname")
-  if s:uname == "Darwin\n"
-    if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'
-      set background=dark
-    else
-      set background=light
-    endif
-  endif
-endif
+"if has("unix")
+"  let s:uname = system("uname")
+"  if s:uname == "Darwin\n"
+"    if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'
+"      set background=dark
+"    else
+"      set background=light
+"    endif
+"  endif
+"endif
 
 " GUI settings
 if has('gui_running')
