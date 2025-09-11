@@ -31,7 +31,6 @@ Plugin 'Shougo/neocomplcache'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-markdown'
-Plugin 'jcf/vim-latex'
 Plugin 'godlygeek/tabular'
 Plugin 'rodjek/vim-puppet'
 Plugin 'markcornick/vim-vagrant'
@@ -70,17 +69,6 @@ let g:syntastic_warning_symbol = '!'
 
 " Activate neocomplcache
 let g:neocomplcache_enable_at_startup=1
-
-" VIM Latex settings
-set grepprg=grep\ -nH\ $*
-let g:tex_flavor='latex'
-let g:Tex_TreatMacViewerAsUNIX = 1
-let g:Tex_ExecuteUNIXViewerInForeground = 1
-let g:Tex_ViewRule_ps = 'open-a Preview'
-let g:Tex_ViewRule_pdf = 'open -a Preview'
-let Tex_FoldedSections = ""
-let Tex_FoldedEnvironments = ""
-let Tex_FoldedMisc = ""
 
 " Editor settings
 set backspace=indent,eol,start
