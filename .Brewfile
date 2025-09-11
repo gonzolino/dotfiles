@@ -1,7 +1,4 @@
-tap "homebrew/bundle"
-tap "homebrew/cask-versions"
-tap "homebrew/cask-drivers"
-
+brew "bash"
 brew "coreutils"
 brew "curl"
 brew "gh"
@@ -10,11 +7,17 @@ brew "gnu-sed"
 brew "gnu-tar"
 brew "gnupg"
 brew "go"
+brew "golangci-lint"
+brew "helm"
 brew "jq"
+brew "kind"
+brew "kubernetes-cli"
+brew "krew"
+brew "kubecolor"
 brew "mas"
-brew "mercurial" # required for some go dependencies
 brew "netcat"
 brew "nmap"
+brew "pinentry-mac"
 brew "python"
 brew "terraform"
 brew "tmux"
@@ -27,7 +30,12 @@ cask "1password"
 cask "1password-cli"
 cask "coconutbattery"
 cask "daisydisk"
+cask "docker-desktop"
+cask "element"
 cask "firefox"
+cask "ghostty"
+cask "goland"
+cask "gpg-suite-no-mail"
 cask "iterm2"
 cask "keepingyouawake"
 cask "sonos"
@@ -36,4 +44,6 @@ cask "visual-studio-code"
 
 mas "1Password for Safari", id: 1569813296
 mas "AdGuard for Safari", id: 1440147259
+mas "Kagi for Safari", id: 1622835804
+mas "Noir", id: 1592917505
 mas "Xcode", id: 497799835
