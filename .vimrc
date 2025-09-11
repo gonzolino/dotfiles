@@ -32,8 +32,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-markdown'
 Plugin 'godlygeek/tabular'
-Plugin 'rodjek/vim-puppet'
-Plugin 'markcornick/vim-vagrant'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'rizzatti/dash.vim'
 
