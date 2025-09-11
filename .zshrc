@@ -54,3 +54,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 source ~/.iterm2_shell_integration.zsh
 source ~/.config/op/plugins.sh
+
+# Make "kubecolor" borrow the same completion logic as "kubectl"
+compdef kubecolor=kubectl
+alias kubectl=kubecolor
