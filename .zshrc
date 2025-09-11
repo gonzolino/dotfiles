@@ -58,3 +58,5 @@ source ~/.config/op/plugins.sh
 # Make "kubecolor" borrow the same completion logic as "kubectl"
 compdef kubecolor=kubectl
 alias kubectl=kubecolor
+
+export SSH_AUTH_SOCK=~/.1password/agent.sock
