@@ -20,7 +20,7 @@ export PATH="$(go env GOPATH)/bin:$PATH"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="pygmalion"
+ZSH_THEME="minimal"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -47,16 +47,30 @@ ZSH_THEME="pygmalion"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(1password brew docker golang gpg-agent kubectl)
+plugins=(1password brew docker git golang gpg-agent kubectl)
+
+# Fix async git prompt not appearing
+zstyle ':omz:alpha:lib:git' async-prompt force
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-source ~/.iterm2_shell_integration.zsh
+
+# Setup 1Password (op CLI plugins and ssh-agent)
 source ~/.config/op/plugins.sh
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
+# Configure kube-ps1 with local clone to get latest master version
+source ~/repos/kube-ps1/kube-ps1.sh
+KUBE_PS1_PREFIX=" ("
+KUBE_PS1_SYMBOL_ENABLE="false"
+KUBE_PS1_HIDE_IF_NOCONTEXT="true"
+
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}*%{$fg[white]%}]%{$reset_color%} "
+
+# Customize prompt with color in path and kube_ps1
+PROMPT='%{$fg[green]%}%2~%{$reset_color%}$(kube_ps1) $(vcs_status)»%b '
 
 # Make "kubecolor" borrow the same completion logic as "kubectl"
 compdef kubecolor=kubectl
 alias kubectl=kubecolor
-
-export SSH_AUTH_SOCK=~/.1password/agent.sock
