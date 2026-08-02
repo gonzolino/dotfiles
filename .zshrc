@@ -47,7 +47,7 @@ ZSH_THEME="minimal"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(1password brew docker git golang gpg-agent kubectl)
+plugins=(1password brew docker fzf git golang gpg-agent kubectl)
 
 # Fix async git prompt not appearing
 zstyle ':omz:alpha:lib:git' async-prompt force
